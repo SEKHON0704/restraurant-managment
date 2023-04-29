@@ -1,0 +1,74 @@
+/restaurant menu system
+#include <iostream>
+using namespace std;
+int main(){
+	int order,no_deals;
+      cout<<"----------------HELLO AND WELCOME TO CUP O LOVE----------------"<<endl;
+	cout<<"|*---------------------------MENU-----------------------------*|"<<endl;
+	cout<<endl;
+	cout<<"(1)  Chicken Biryani                    ₹150 only."<<endl;
+	cout<<"(2)  Chicken Palao                      ₹130 only."<<endl;
+	cout<<"(3)  Chinese Rice                       ₹120 only."<<endl;
+	cout<<"(4)  Chicken Burgar                     ₹90 only."<<endl;
+	cout<<"(5)  Nawabi Pizza                       ₹450 only."<<endl;
+	cout<<"(6)  2.5 Litre Coke                     ₹100 only."<<endl;
+	cout<<endl;
+	cout<<"Please select the order number: ";
+	cin>>order;
+	cout<<"Please enter the number of deals: ";
+	cin>>no_deals;
+	cout<<endl;
+	switch(order) {
+	
+        	case 1:
+		cout<<"Order : Chicken Biryani."<<endl;
+		cout<<"Number of deals : "<<no_deals<<endl;
+		cout<<"Price of each deal: ₹150 only."<<endl;
+		cout<<"Total price : "<<"₹"<<150*no_deals<<" "<<"only."<<endl;
+		cout<<endl;
+		cout<<"~---------THANK YOU FOR COMING-----------~"<<endl;
+		break;
+			case 2:
+		cout<<"Order Chicken Palao."<<endl;
+		cout<<"Number of deals : "<<no_deals<<endl;
+		cout<<"Price of each deal: ₹130 only."<<endl;
+		cout<<"Total price : "<<"₹"<<130*no_deals<<" "<<"only."<<endl;
+		cout<<endl;
+		cout<<"~---------THANK YOU FOR COMING-----------~"<<endl;
+		break;
+				case 3:
+		cout<<"Order : Chinese Rice."<<endl;
+		cout<<"Number of deals : "<<no_deals<<endl;
+		cout<<"Price of each deal: ₹120 only."<<endl;
+		cout<<"Total price : "<<"₹"<<120*no_deals<<" "<<"only."<<endl;
+		cout<<endl;
+		cout<<"~---------THANK YOU FOR COMING-----------~"<<endl;
+		break;
+				case 4:
+		cout<<"Order : Chicken Burgar."<<endl;
+		cout<<"Number of deals : "<<no_deals<<endl;
+		cout<<"Price of each deal: ₹90 only."<<endl;
+		cout<<"Total price : "<<"₹"<<90*no_deals<<" "<<"only."<<endl;
+		cout<<endl;
+		cout<<"~---------THANK YOU FOR COMING-----------~"<<endl;
+		break;
+				case 5:
+		cout<<"Order : Nawabi Pizza ."<<endl;
+		cout<<"Number of deals : "<<no_deals<<endl;
+		cout<<"Price of each deal: ₹450 only."<<endl;
+		cout<<"Total price : "<<"₹"<<450*no_deals<<" "<<"only."<<endl;
+		cout<<endl;
+		cout<<"~---------THANK YOU FOR COMING-----------~"<<endl;
+		break;
+				case 6:
+		cout<<"Order : 2.5 Litre Coke."<<endl;
+		cout<<"Number of deals : "<<no_deals<<endl;
+		cout<<"Price of each deal: ₹100 only."<<endl;
+		cout<<"Total price : "<<"₹"<<100*no_deals<<" "<<"only."<<endl;
+		cout<<endl;
+		cout<<"~---------THANK YOU FOR COMING-----------~"<<endl;
+            cout<<"~--------------VISIT AGAIN----------------~"<<endl;
+		break;
+	
+} return 0;
+}
